@@ -1,0 +1,1 @@
+"use strict";Object.defineProperties(exports,{__esModule:{value:!0},[Symbol.toStringTag]:{value:"Module"}});const r=require("./color.js"),t={color:r.default},c={install(o){Object.keys(t).forEach(e=>{o.directive(e,t[e])})}};exports.default=c;

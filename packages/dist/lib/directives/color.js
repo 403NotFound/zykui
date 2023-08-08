@@ -1,0 +1,1 @@
+"use strict";Object.defineProperties(exports,{__esModule:{value:!0},[Symbol.toStringTag]:{value:"Module"}});const o={bind(e,l){e.style.color=l.value},update(e,l){e.style.color=l.value}};exports.default=o;
