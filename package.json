@@ -8,6 +8,8 @@
     "example"
   ],
   "scripts": {
+    "dev": "pnpm -C example dev",
+    "build": "pnpm -C packages build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

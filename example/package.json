@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@zyk/zyk-ui": "workspace:^0.0.1",
+    "element-ui": "^2.15.13",
+    "sass": "^1.65.1",
     "vue": "^2.7.14"
   },
   "devDependencies": {

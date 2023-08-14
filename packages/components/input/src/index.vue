@@ -1,5 +1,7 @@
 <template>
-  <div>Input</div>
+  <div class="box">
+    <el-input placeholder="请输入"></el-input>
+  </div>
 </template>
 
 <script>

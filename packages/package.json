@@ -14,6 +14,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "element-ui": "^2.15.13",
+    "example": "workspace:^0.0.0",
+    "sass": "^1.65.1",
     "vue": "^2.7.14"
   },
   "devDependencies": {
