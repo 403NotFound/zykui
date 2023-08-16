@@ -4,16 +4,10 @@
   </div>
 </template>
 
-<script>
-export default { name: 'ZButton' }
-</script>
-
 <script setup>
-onMounted(() => {
-  console.log(111)
+defineOptions({
+  name: 'ZButton',
 })
-
-const msg = ref()
 
 const a = ref(12345)
 </script>

@@ -4,9 +4,14 @@
   </div>
 </template>
 
-<script>
-export default { name: 'ZInput' }
+<script setup>
+defineOptions({
+  name: 'ZInput',
+})
+const a = ref(123)
+onMounted(() => {
+  console.log('hello')
+})
 </script>
-<script setup></script>
 
 <style scoped></style>

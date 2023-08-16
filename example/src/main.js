@@ -6,13 +6,11 @@ import zyk, { getAge } from '@zyk/zyk-ui'
 // import { ZButton } from '@zyk/zyk-ui'
 import '@zyk/zyk-ui/css/index.css'
 import ElementUI from 'element-ui'
-
+console.log(zyk)
 
 import 'element-ui/lib/theme-chalk/index.css'
 
 Vue.use(ElementUI)
-
-
 
 Vue.use(zyk)
 

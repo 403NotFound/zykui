@@ -1,24 +1,30 @@
+import { defineComponent as o, ref as r, onMounted as s } from "vue";
 import "./index.vue2.js";
-import r from "../../../_virtual/_plugin-vue2_normalizer.js";
-const s = { name: "ZInput" }, _ = /* @__PURE__ */ Object.assign(s, {
-  setup(n) {
-    return { __sfc: !0 };
+import _ from "../../../_virtual/_plugin-vue2_normalizer.js";
+const l = o({
+  name: "ZInput"
+}), a = /* @__PURE__ */ Object.assign(l, {
+  setup(t) {
+    const e = r(123);
+    return s(() => {
+      console.log("hello");
+    }), { __sfc: !0, a: e };
   }
 });
-var a = function() {
-  var t = this, e = t._self._c;
-  return t._self._setupProxy, e("div", { staticClass: "box" }, [e("el-input", { attrs: { placeholder: "请输入1" } })], 1);
-}, o = [], c = /* @__PURE__ */ r(
-  _,
+var c = function() {
+  var e = this, n = e._self._c;
+  return e._self._setupProxy, n("div", { staticClass: "box" }, [n("el-input", { attrs: { placeholder: "请输入1" } })], 1);
+}, p = [], u = /* @__PURE__ */ _(
   a,
-  o,
+  c,
+  p,
   !1,
   null,
-  "c6ea78b0",
+  "14545e8e",
   null,
   null
 );
-const u = c.exports;
+const d = u.exports;
 export {
-  u as default
+  d as default
 };
