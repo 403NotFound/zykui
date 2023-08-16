@@ -1,5 +1,5 @@
 import components from './components/index'
-import './css/index.css'
+import './style/index.css'
 import directives from './directives'
 
 export * from './utils/common'
