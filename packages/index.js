@@ -1,6 +1,7 @@
 import components from './components/index'
 import './css/index.css'
 import directives from './directives'
+
 export * from './utils/common'
 export * from './components/index'
 const install = Vue => {

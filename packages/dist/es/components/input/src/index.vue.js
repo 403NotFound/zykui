@@ -7,18 +7,18 @@ const s = { name: "ZInput" }, _ = /* @__PURE__ */ Object.assign(s, {
 });
 var a = function() {
   var t = this, e = t._self._c;
-  return t._self._setupProxy, e("div", { staticClass: "box" }, [e("el-input", { attrs: { placeholder: "请输入" } })], 1);
-}, o = [], l = /* @__PURE__ */ r(
+  return t._self._setupProxy, e("div", { staticClass: "box" }, [e("el-input", { attrs: { placeholder: "请输入1" } })], 1);
+}, o = [], c = /* @__PURE__ */ r(
   _,
   a,
   o,
   !1,
   null,
-  "386137a6",
+  "c6ea78b0",
   null,
   null
 );
-const u = l.exports;
+const u = c.exports;
 export {
   u as default
 };

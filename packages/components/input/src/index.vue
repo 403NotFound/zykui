@@ -1,6 +1,6 @@
 <template>
   <div class="box">
-    <el-input placeholder="请输入"></el-input>
+    <el-input placeholder="请输入1"></el-input>
   </div>
 </template>
 

@@ -1,24 +1,29 @@
+import { onMounted as s, ref as e } from "vue";
 import "./index.vue2.js";
-import r from "../../../_virtual/_plugin-vue2_normalizer.js";
-const _ = { name: "ZButton" }, s = /* @__PURE__ */ Object.assign(_, {
-  setup(n) {
-    return { __sfc: !0 };
+import _ from "../../../_virtual/_plugin-vue2_normalizer.js";
+const a = { name: "ZButton" }, c = /* @__PURE__ */ Object.assign(a, {
+  setup(o) {
+    s(() => {
+      console.log(111);
+    });
+    const t = e(), n = e(12345);
+    return { __sfc: !0, msg: t, a: n };
   }
 });
-var o = function() {
-  var t = this, e = t._self._c;
-  return t._self._setupProxy, e("div", [e("el-button", { attrs: { type: "primary" } }, [t._v("Button")])], 1);
-}, a = [], u = /* @__PURE__ */ r(
-  s,
-  o,
-  a,
+var u = function() {
+  var t = this, n = t._self._c, r = t._self._setupProxy;
+  return n("div", [n("el-button", { attrs: { type: "primary" } }, [t._v("Button2-" + t._s(r.a))])], 1);
+}, l = [], f = /* @__PURE__ */ _(
+  c,
+  u,
+  l,
   !1,
   null,
-  "9e6972e1",
+  "cd7f5284",
   null,
   null
 );
-const p = u.exports;
+const d = f.exports;
 export {
-  p as default
+  d as default
 };

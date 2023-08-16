@@ -1,9 +1,16 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue2'
 import { resolve } from 'path'
+import AutoImport from 'unplugin-auto-import/vite'
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue()],
+  plugins: [
+    vue(),
+    AutoImport({
+      include: [/\.vue$/, /\.vue\?vue/],
+      imports: ['vue'],
+    }),
+  ],
   build: {
     target: 'modules',
     //打包文件目录
@@ -13,7 +20,7 @@ export default defineConfig({
     //css分离
     cssCodeSplit: true,
     rollupOptions: {
-      //忽略打包vue、element-plus
+      //忽略打包vue、element-ui
       external: ['vue', 'element-ui'],
       input: ['index.js'],
       output: [

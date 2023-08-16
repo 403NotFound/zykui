@@ -7,12 +7,15 @@
 <script>
 export default { name: 'ZButton' }
 </script>
+
 <script setup>
 onMounted(() => {
   console.log(111)
 })
 
-const a = ref(123)
+const msg = ref()
+
+const a = ref(12345)
 </script>
 
 <style scoped></style>
